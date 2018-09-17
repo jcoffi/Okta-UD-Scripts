@@ -1,9 +1,15 @@
+#!/usr/bin/env python
 import requests
 import json
 import re
 import sys
 import csv
 
+# encoding=utf8
+# Fixes issue with UTF8 encoded user accounts causing the script to fail
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 orgName = ""
 
