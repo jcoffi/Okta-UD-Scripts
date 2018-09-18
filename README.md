@@ -1,4 +1,7 @@
 # Okta-UD-Scripts
+All scripts are as they were when forked save for the Active user script whcih has been modified to accept UTF8 characters.
+
+
 Few scripts to operate on UD
 
 Python scripts that demonstrte use of Okta's REST APIs for Unviversl Directory. Description of each script
